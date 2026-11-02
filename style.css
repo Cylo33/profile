@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(241, 215, 180, 0.5);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #68420a;
+  font-size: medium;
+  line-height: normal;
+}
+a {text-decoration: none;
+color: #299b5c;}
+a:hover{color: hsl(22, 75%, 51%);
+ transform: translateY(-2px)}
+@media (prefers-reduced-motion: no-preference) {
+  a {
+    transition: color 0.3s ease;
+  }
+}
+#discover {font-weight: bolder;font-size:40px;}
+p {
+  font-style: italic;font-weight: 700
+;
+}
+.icon-blue {color: rgb(9, 114, 146);font-size: 30px;}
+div {
+  margin: auto;
+  border: #299b5c;
+}
+.cards {
+  background: rgb(230, 209, 165);                         /* White background */
+padding: 10px;margin: 20px;                             /* Internal space */
+border-radius: 50px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);text-align: center;
+}
+.container {width: 900px;        /* Set the width */
+margin: 0 auto;
+
+}
+.img-circle {border-radius: 70px}
+h1{font-size: 60px; height: 30px}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 40px;
+   list-style: none;
+  padding-left: 0px;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+ 
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 300px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 100px;
+  }
+  h1{font-size: 30px; height: 30px}
+}
